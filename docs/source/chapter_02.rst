@@ -57,7 +57,7 @@ ShishD
        abstract boolean isVegetarian(); //烤串上是不是全是蔬菜
    }
 
-   class Skewer extends ShishD { //串，烤肉叉子
+   class Onion extends ShishD { //洋葱
        boolean onlyOnions(){
            return true;
        }
@@ -67,7 +67,7 @@ ShishD
        }
    }
 
-   class Onion extends ShishD { //洋葱
+   class Skewer extends ShishD { //串，烤肉叉子
        ShishD s;
        Onion(ShishD _s) {
            s = _s;
